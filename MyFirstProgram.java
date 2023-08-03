@@ -16,7 +16,10 @@ public class MyFirstProgram {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //1. OUTPUT//
+        
         /* 
+            Shortcut -> sout + tab
             Menampilkan output di java:
             System.out.print("_string_, diisi dengan kata yang mau dioutputkan");
         */ 
@@ -66,5 +69,27 @@ public class MyFirstProgram {
         
         System.out.println("\\I love Pizza");
         System.out.println("It's really good!");
+        
+        //2. COMMENT//
+        
+        /* 
+            Comment berfungsi untuk memberikan keterangan/penjelasan singkat akan kode yang kita buat
+            Comment tidak akan dieksekusi dan akan diignore oleh compiler
+            Untuk satu line comment, maka kita bisa menuliskan dengan:
+            //...
+        
+            Untuk >1 line comment maka:
+            /.*
+            *...
+            *./
+        */ 
+        
+        //This is a comment
+        
+        /*
+        *This
+        *is
+        *comment
+        */
     }
 }
